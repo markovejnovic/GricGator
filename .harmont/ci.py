@@ -7,7 +7,7 @@ from harmont.rust import RustToolchain
 
 @hm.target()
 def project() -> RustToolchain:
-    return hm.rust.toolchain(path="./")
+    return hm.rust.toolchain(path=".")
 
 
 @hm.pipeline(
